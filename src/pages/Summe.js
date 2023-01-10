@@ -12,8 +12,8 @@ class Header extends Component{
     render() {
         // const headerCv2 = "CV "
         const headerCv1 = "Hakan Altiparmak"
-        const github = <FontAwesomeIcon icon={faGithub} />
-        const linkedin = <FontAwesomeIcon icon={faLinkedin} />
+        const github = <FontAwesomeIcon icon={faGithub } size= "2xl" />
+        const linkedin = <FontAwesomeIcon icon={faLinkedin} size="2xl" />
         class HalloBild extends Component {
         render() {
             const halloMessage = "Wilkommen"
