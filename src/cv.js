@@ -3,7 +3,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  RouterProvider
+  RouterProvider,
+  
 } from "react-router-dom"
 
 import RootLayout from "./layouts/RootLayout";

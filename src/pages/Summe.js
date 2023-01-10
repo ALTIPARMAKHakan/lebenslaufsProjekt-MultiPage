@@ -1,17 +1,19 @@
 import React, {Component} from 'react'
 import hakanaltiparmakFoto from '../img/hakan.png'
- 
-// import History from './history'
-// import ContactForm from './contact-form.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
+// import { icon } from '@fortawesome/free-solid-svg-icons'
 
 export default function Summe() {  
         
 class Header extends Component{
-    render(){
+    render() {
         // const headerCv2 = "CV "
         const headerCv1 = "Hakan Altiparmak"
-        const github = "GitHub link"
-        const linkedin = "Linkedin link"
+        const github = <FontAwesomeIcon icon={faGithub} />
+        const linkedin = <FontAwesomeIcon icon={faLinkedin} />
         class HalloBild extends Component {
         render() {
             const halloMessage = "Wilkommen"

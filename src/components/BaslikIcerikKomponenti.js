@@ -3,6 +3,7 @@ import Beruf from "../pages/beruf";
 import Studium from "../pages/Studium"
 import FahigkeitundKentnisse from "../pages/Fahigkeit"
 import Hobbys from "../pages/Hobbys"
+
 class History extends Component {
     render(){
         return(
