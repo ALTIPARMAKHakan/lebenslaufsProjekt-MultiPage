@@ -10,12 +10,18 @@
     100% {
         opacity: 1;
     }
+
 }
+
 .root-layout{
     width: 100%;
     align-content: center;
+    
 }
-
+/* .root-layout header nav :link.visited{
+    color: azure !important;
+    text-decoration: none; 
+ } */
 header nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
@@ -26,8 +32,10 @@ header nav{
     justify-content: center;
     gap: 15px;
     width: 95%;  
+    transition: 500ms;
     
 }
+
 header nav a:link{
     color: azure;
     background-color: #0072B4;
@@ -38,34 +46,42 @@ header nav a:link{
     padding: 3px;
     text-decoration: none;
     
+    
 }
-header nav a:link.active{
+header nav a:hover{
     background-color: orange;
-    text-decoration: none;
+    
+     
+    
 }
-header nav a:link:visited{
-    color: azure !important;
-    text-decoration: none;
+header nav a:visited{
+    color: azure;
+    
+    
 }
+
 footer a:link{
-    border:1px black solid;
+    border:1px black solid;    
     border-top-left-radius: 10px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 3px;   
+    border-bottom-left-radius: 3px;      
     margin: 2px;
     padding: 3px;
     text-decoration: none;
     line-height: 20px;
     justify-content: flex-end;   
+    background-color: #0072B4;
+    color: azure;
+    
 }
-footer a:link.active{
+footer a:hover{
     background-color: orange;
-    text-decoration: none;
+    
 }
-footer a:link:visited{
-    color: azure !important;
-    text-decoration: none;
+footer a:visited{
+    color: azure;
+    
 }
 @media screen and (max-width:540px) {
     header nav {
@@ -164,6 +180,11 @@ p, li{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    
+}
+
+#link-wrapper div a:visited{
+    color: transparent;
     
 }
 .job-history{
